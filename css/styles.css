@@ -184,7 +184,7 @@ a {
 }
 
 a:hover {
-  color: #824027;
+  color: #236FA1;
   text-decoration: underline;
 }
 
@@ -2201,7 +2201,7 @@ pre code {
   background-color: #fff;
   border-color: #e0aa95;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2706,7 +2706,6 @@ textarea.form-control.is-invalid {
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
 }
 
 .btn.disabled,
@@ -2731,16 +2730,15 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #9f4e2f;
-  border-color: #964a2c;
+  background-color: #236FA1;
+  border-color: #236FA1;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #9f4e2f;
-  border-color: #964a2c;
-  box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
+  background-color: #2980b9;
+  border-color: #2980b9;
 }
 
 .btn-primary.disabled,
@@ -2754,15 +2752,11 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #964a2c;
-  border-color: #8c4529;
+  background-color: #2980b9;
+  border-color: #2980b9;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
-}
+
 
 .btn-secondary {
   color: #fff;
@@ -3062,10 +3056,7 @@ fieldset:disabled a.btn {
   border-color: #2980b9;
 }
 
-.btn-outline-primary:focus,
-.btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
-}
+
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
@@ -3081,11 +3072,7 @@ fieldset:disabled a.btn {
   border-color: #2980b9;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
-.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
-}
+
 
 .btn-outline-secondary {
   color: #6c757d;
@@ -5294,7 +5281,7 @@ input[type=button].btn-block {
 .page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+
 }
 
 .page-item:first-child .page-link {
@@ -5408,7 +5395,7 @@ a.badge-primary:focus {
 a.badge-primary:focus,
 a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
+
 }
 
 .badge-secondary {
