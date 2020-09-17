@@ -10734,6 +10734,11 @@ button.bg-dark:focus {
   color: #2980b9 !important;
 }
 
+.date-primary {
+  color: #343a40 !important;
+}
+
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #824027 !important;
