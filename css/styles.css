@@ -10736,6 +10736,7 @@ button.bg-dark:focus {
 
 .date-primary {
   color: #343a40 !important;
+  text-transform: uppercase !important;
 }
 
 
